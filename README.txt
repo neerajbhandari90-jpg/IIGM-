@@ -1,30 +1,37 @@
-IIGM WEBSITE STARTER — IMPORTANT
+IIGM MULTI-PAGE WEBSITE PROTOTYPE
 
-Files:
-- index.html: homepage structure
-- style.css: responsive visual design
-- script.js: mobile menu and demo enquiry form
-- README.txt: instructions and warnings
+Pages:
+- index.html — Home
+- about.html — About IIGM
+- courses.html — sample courses and indicative fees
+- admissions.html — admission process and demo enquiry form
+- results.html — fictional student result lookup demo
+- notices.html — placeholder notices
+- contact.html — contact placeholders
+- style.css — common responsive styling
+- script.js — mobile navigation, demo enquiry draft and fictional result demo
 
-HOW TO UPLOAD TO GITHUB:
-1. Open your GitHub repository named iigm-college-website.
-2. Click Add file > Upload files.
-3. Upload index.html, style.css and script.js (you can upload README.txt too).
-4. Commit changes.
-5. Go to Settings > Pages.
-6. Select Deploy from a branch, branch main, folder /(root), and save.
-7. Wait for the deployment and open the published URL.
+UPLOAD:
+1. In the existing GitHub repository, choose Add file > Upload files.
+2. Upload all HTML files plus style.css and script.js to the repository root.
+3. Commit changes.
+4. GitHub Pages usually redeploys automatically. Wait a few minutes and refresh the website.
+5. Main website: https://neerajbhandari90-jpg.github.io/IIGM-/
+6. Courses page: https://neerajbhandari90-jpg.github.io/IIGM-/courses.html
+7. Admissions page: https://neerajbhandari90-jpg.github.io/IIGM-/admissions.html
+8. Result demo: https://neerajbhandari90-jpg.github.io/IIGM-/results.html
 
-IMPORTANT BEFORE PUBLIC LAUNCH:
-- Replace placeholder phone, email and address with verified official contact details.
-- Confirm the institute's legal/official name, course list, affiliations and approvals.
-- Course categories in this starter are illustrative, not confirmed programs.
-- The enquiry form is a demo: it downloads a text draft locally and does NOT send or store submissions.
-- Student results, fees, and admin login are only planned sections, NOT working systems.
-- Never upload student personal data to a public GitHub repository.
-- GitHub Pages cannot run PHP/MySQL. For secure student accounts and records, use a suitable backend host and database.
-- Do not claim accreditation, recognition, placement guarantees, student counts or course approvals unless verified.
+RESULT DEMO CREDENTIALS:
+Roll number: IIGM2026001
+Date of birth: 2005-08-15
+These belong to a fictional demo student. Result marks are fictional and have no academic validity.
 
-Brand selected for this project:
-IIGM — Indian Institute of Innovation & Global Management
-Tagline: Learn Today, Lead Tomorrow.
+CRITICAL:
+- Course names and fee ranges are illustrative, not confirmed IIGM offerings or official fees. Verify all details before publishing to customers/students.
+- Replace placeholder phone, email, address, notices and institutional details.
+- The admissions form downloads a local draft only; it does not transmit or store data.
+- The result demo is static client-side JavaScript and is NOT secure for real student records.
+- Never publish real student data in a public repository.
+- For actual result/fees/admin system, use secure server-side authentication, database, access controls, rate limiting and backups. GitHub Pages cannot run PHP/MySQL.
+- External images and Google Fonts need internet access.
+- Verify name availability and all legal/educational recognition claims before representing IIGM as an operating institute.
