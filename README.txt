@@ -1,37 +1,11 @@
-IIGM MULTI-PAGE WEBSITE PROTOTYPE
+IIGM UNIVERSITY-STYLE MULTI-PAGE TEMPLATE
 
-Pages:
-- index.html — Home
-- about.html — About IIGM
-- courses.html — sample courses and indicative fees
-- admissions.html — admission process and demo enquiry form
-- results.html — fictional student result lookup demo
-- notices.html — placeholder notices
-- contact.html — contact placeholders
-- style.css — common responsive styling
-- script.js — mobile navigation, demo enquiry draft and fictional result demo
+Includes Home, About, Leadership, Campus, Programmes, Undergraduate, Postgraduate, Diploma/Certificate, Fees/Scholarships, Admissions, How to Apply, Eligibility, FAQs, Results demo, Student Corner, Notices, Downloads, Academic Calendar, Research, Gallery, Contact, Privacy and Terms.
 
-UPLOAD:
-1. In the existing GitHub repository, choose Add file > Upload files.
-2. Upload all HTML files plus style.css and script.js to the repository root.
-3. Commit changes.
-4. GitHub Pages usually redeploys automatically. Wait a few minutes and refresh the website.
-5. Main website: https://neerajbhandari90-jpg.github.io/IIGM-/
-6. Courses page: https://neerajbhandari90-jpg.github.io/IIGM-/courses.html
-7. Admissions page: https://neerajbhandari90-jpg.github.io/IIGM-/admissions.html
-8. Result demo: https://neerajbhandari90-jpg.github.io/IIGM-/results.html
+IMPORTANT: This is a template, not proof of university status or course approval. Replace all sample contact details, fees, dates, leadership, affiliations, facilities and course information with verified official details. Enquiry form prepares an email draft only. Results page is a demo; real results, admin login, manual entry and Excel import require a secure backend/database, authentication, access rules, validation, audit trail and backups. Never put admin secrets in public code. Graphic gallery panels are not real campus photos. Preserve folder structure when uploading.
 
-RESULT DEMO CREDENTIALS:
-Roll number: IIGM2026001
-Date of birth: 2005-08-15
-These belong to a fictional demo student. Result marks are fictional and have no academic validity.
-
-CRITICAL:
-- Course names and fee ranges are illustrative, not confirmed IIGM offerings or official fees. Verify all details before publishing to customers/students.
-- Replace placeholder phone, email, address, notices and institutional details.
-- The admissions form downloads a local draft only; it does not transmit or store data.
-- The result demo is static client-side JavaScript and is NOT secure for real student records.
-- Never publish real student data in a public repository.
-- For actual result/fees/admin system, use secure server-side authentication, database, access controls, rate limiting and backups. GitHub Pages cannot run PHP/MySQL.
-- External images and Google Fonts need internet access.
-- Verify name availability and all legal/educational recognition claims before representing IIGM as an operating institute.
+RESULT PORTAL DEMO
+- Open results/index.html and use one of the fictional sample logins shown on the page.
+- Sample records are for visual/testing purposes only and are NOT official academic records.
+- Print / Save as PDF creates a browser print preview with a visible DEMO / NOT OFFICIAL watermark.
+- This is a static browser demo, not a secure live result database. Do not add real student data to public JavaScript.
